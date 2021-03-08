@@ -9,7 +9,12 @@ import './App.css';
 
 class App extends Component {
   render() {
-    return <h1>Hello world!!</h1>;
+    return (
+    <React.Fragment>
+    <label htmlFor = "bar">bar </label>
+    <input type="text" onClikck={() => {console.log("Hi!!")}} />
+    </React.Fragment>
+    )
   }
 }
 
